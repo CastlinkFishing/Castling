@@ -1,0 +1,10 @@
+app = "castlink-discord-bot"
+primary_region = "iad"
+
+[env]
+  NODE_ENV = "production"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpus = 1
