@@ -1,0 +1,14 @@
+app = "castling"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+  build_context = "discord-bot"
+
+[env]
+  NODE_ENV = "production"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpus = 1
